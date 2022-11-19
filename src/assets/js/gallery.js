@@ -38,6 +38,10 @@ images.forEach(image => {
   image.src = path;
   // image.href = path;
   image.setAttribute("href", path);
+  
+
 });
 
-}
+    refreshFsLightbox();
+
+  }

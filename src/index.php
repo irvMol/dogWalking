@@ -78,6 +78,7 @@
 								<a data-fslightbox class="image" href=""><img class="thumbnail image" src="assets/images/pic01.jpg" alt="Image" ></a>
 								<a data-fslightbox class="image" href=""><img class="thumbnail image" src="assets/images/pic01.jpg" alt="Image" ></a>
 								<a data-fslightbox class="image" href=""><img class="thumbnail image" src="assets/images/pic01.jpg" alt="Image" ></a>
+
 							</section>
 
 							<section class="img-row" id="rowTwo">
@@ -131,7 +132,7 @@
 									<li><a href="#" class="fa-solid fa-paw fa-beat" style="--fa-animation-duration: 2s;"></a></li>
 									<li><a href="#" class="fa-brands fa-linkedin fa-beat" style="--fa-animation-duration: 2s;"></a></li>
 									<li><a href="#" class="fa-brands fa-instagram fa-beat" style="--fa-animation-duration: 2s;"></a></li>
-									<li><a href="#" class="fa-brands fa-github fa-beat" style="--fa-animation-duration: 2s;"></a></li>
+									<li><a href="https://github.com/irvMol/dogWalking" class="fa-brands fa-github fa-beat" style="--fa-animation-duration: 2s;"></a></li>
 								</ul>
 							</article>
 
@@ -157,7 +158,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<!-- <script src="assets/js/fslightbox.js"></script> -->
 			<script src="assets/js/gallery.js"></script>
 			<script src="assets/js/fslightbox.js"></script>
 

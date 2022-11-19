@@ -26,8 +26,8 @@ article, aside, footer, header, nav, section {
 
 .thumbnail{
 	padding: 10px;
-	max-height: 200px !important;
-	max-width: 200px !important;
+	max-width: 150px !important;
+	max-height: 150px !important;
 }
 article, aside, footer, header, nav, section {
 	display: block;}
