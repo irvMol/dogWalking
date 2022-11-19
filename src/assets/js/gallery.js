@@ -27,17 +27,17 @@ $(document).ready(function(){
 
 function populate() {
 
-const images = document.querySelectorAll('.image');
+const items = document.querySelectorAll('.item');
 
-images.forEach(image => {
+items.forEach(item => {
 
   let rand = Math.floor(Math.random() * pictures.length);
   
   let path = (dir.concat(pictures[rand]))
   console.log(path)
-  image.src = path;
-  // image.href = path;
-  image.setAttribute("href", path);
+  item.src = path;
+  // item.href = path;
+  item.setAttribute("href", path);
   
 
 });

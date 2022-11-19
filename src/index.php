@@ -74,25 +74,25 @@
 								<h2 class="major">Photo Gallery</h2>
 								
 							<section class="img-row" id="rowOne">
-								<a data-fslightbox class="image" href=""><img class="thumbnail image" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="image" href=""><img class="thumbnail image" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="image" href=""><img class="thumbnail image" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="image" href=""><img class="thumbnail image" src="assets/images/pic01.jpg" alt="Image" ></a>
+								<a data-fslightbox class="item" href=""><img class="thumbnail item" src="assets/images/pic01.jpg" alt="Image" ></a>
+								<a data-fslightbox class="item" href=""><img class="thumbnail item" src="assets/images/pic01.jpg" alt="Image" ></a>
+								<a data-fslightbox class="item" href=""><img class="thumbnail item" src="assets/images/pic01.jpg" alt="Image" ></a>
+								<a data-fslightbox class="item" href=""><img class="thumbnail item" src="assets/images/pic01.jpg" alt="Image" ></a>
 
 							</section>
 
 							<section class="img-row" id="rowTwo">
-									<img class="thumbnail image" src="assets/images/pic02.jpg" alt="">
-									<img class="thumbnail image" src="assets/images/pic02.jpg" alt="">
-									<img class="thumbnail image" src="assets/images/pic02.jpg" alt="">
-									<img class="thumbnail image" src="assets/images/pic02.jpg" alt="">
+									<img class="thumbnail item" src="assets/images/pic02.jpg" alt="">
+									<img class="thumbnail item" src="assets/images/pic02.jpg" alt="">
+									<img class="thumbnail item" src="assets/images/pic02.jpg" alt="">
+									<img class="thumbnail item" src="assets/images/pic02.jpg" alt="">
 								</section>
 							
 							<section class="img-row" id="rowThree">
-									<img class="thumbnail image" src="assets/images/pic01.jpg" alt="">
-									<img class="thumbnail image" src="assets/images/pic01.jpg" alt="">
-									<img class="thumbnail image" src="assets/images/pic01.jpg" alt="">
-									<img class="thumbnail image" src="assets/images/pic02.jpg" alt="">
+									<img class="thumbnail item" src="assets/images/pic01.jpg" alt="">
+									<img class="thumbnail item" src="assets/images/pic01.jpg" alt="">
+									<img class="thumbnail item" src="assets/images/pic01.jpg" alt="">
+									<img class="thumbnail item" src="assets/images/pic02.jpg" alt="">
 								</section>
 								
 
