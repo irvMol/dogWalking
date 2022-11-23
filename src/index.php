@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Alyssa's Dog walking </title>
+		<title>Front Range Dog Care </title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -27,8 +27,8 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Alyssa's Dog Walking</h1>
-								<p>Tired Dogs, Happy Dogs</p>
+								<h1>Front Range Dogs</h1>
+								<p>Tired Paws, Happy Dogs</p>
 							</div>
 						</div>
 						<nav>
@@ -47,7 +47,9 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Introduction</h2>
-								<span class="image main"><img src="assets/images/bio.jpg" alt="" /></span>
+								<q>I believe a tired dog, is a happy dog.</q>
+
+								<!-- <span class="image main"><img src="assets/images/bio.jpg" alt="" /></span> -->
 								<p>Hello! My name is Alyssa Black, and I provide pet care services in Westminster, CO and the
 								surrounding areas. Working with animals, especially our beloved canines, has been my passion since I was a child.
 								I’ve been living with and caring for dogs my entire life, and have been professionally dog sitting and walking for the last seven years.
@@ -74,26 +76,25 @@
 								<h2 class="major">Photo Gallery</h2>
 								
 							<section class="img-row" id="rowOne">
-								<a data-fslightbox class="item" href=""><img class="thumbnail item" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="item" href=""><img class="thumbnail item" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="item" href=""><img class="thumbnail item" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="item" href=""><img class="thumbnail item" src="assets/images/pic01.jpg" alt="Image" ></a>
-
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
 							</section>
 
 							<section class="img-row" id="rowTwo">
-									<img class="thumbnail item" src="assets/images/pic02.jpg" alt="">
-									<img class="thumbnail item" src="assets/images/pic02.jpg" alt="">
-									<img class="thumbnail item" src="assets/images/pic02.jpg" alt="">
-									<img class="thumbnail item" src="assets/images/pic02.jpg" alt="">
-								</section>
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
+							</section>
 							
 							<section class="img-row" id="rowThree">
-									<img class="thumbnail item" src="assets/images/pic01.jpg" alt="">
-									<img class="thumbnail item" src="assets/images/pic01.jpg" alt="">
-									<img class="thumbnail item" src="assets/images/pic01.jpg" alt="">
-									<img class="thumbnail item" src="assets/images/pic02.jpg" alt="">
-								</section>
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+							</section>
 								
 
 							</article>
@@ -110,7 +111,7 @@
 
 										<div class="field half">
 											<label for="pet">Pets' Name</label>
-											<input type="text" name="pet" id="pet" pattern=[A-Z\sa-z]{3,30} required>
+											<input type="text" name="subject" id="pet" pattern=[A-Z\sa-z]{3,30} required>
 										</div>
 
 										<div class="field">
@@ -129,10 +130,10 @@
 								</form>
 								
 								<ul class="icons">
-									<li><a href="#" class="fa-solid fa-paw fa-beat" style="--fa-animation-duration: 2s;"></a></li>
-									<li><a href="#" class="fa-brands fa-linkedin fa-beat" style="--fa-animation-duration: 2s;"></a></li>
-									<li><a href="#" class="fa-brands fa-instagram fa-beat" style="--fa-animation-duration: 2s;"></a></li>
-									<li><a href="https://github.com/irvMol/dogWalking" class="fa-brands fa-github fa-beat" style="--fa-animation-duration: 2s;"></a></li>
+									<li><a href="#" class="fa-solid fa-paw fa-beat" style="--fa-animation-duration: 4s;"></a></li>
+									<li><a href="#" class="fa-brands fa-linkedin fa-beat" style="--fa-animation-duration: 4s;"></a></li>
+									<li><a href="#" class="fa-brands fa-instagram fa-beat" style="--fa-animation-duration: 4s;"></a></li>
+									<li><a href="https://github.com/irvMol/dogWalking" class="fa-brands fa-github fa-beat" style="--fa-animation-duration: 4s;"></a></li>
 								</ul>
 							</article>
 

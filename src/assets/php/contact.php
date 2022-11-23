@@ -1,45 +1,47 @@
 <?php
 
-$errors = [];
-$errorMessage = '';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-if (!empty($_POST)) {
-   $name = $_POST['name'];
-   $subject = $_POST['pet'];
-   $email = $_POST['email'];
-   $message = $_POST['message'];
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
 
-   if (empty($name)) {
-       $errors[] = 'Name is empty';
-   }
+    $myAwardSpaceEmail = "your-AwardSpace-email-goes-here";
+    $myAwardSpaceEmailPassword = "your-AwardSpace-email-password-goes-here";
+    $myPersonalEmail = "your-personal-email-goes-here";
 
-   if (empty($email)) {
-       $errors[] = 'Email is empty';
-   } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-       $errors[] = 'Email is invalid';
-   }
 
-   if (empty($message)) {
-       $errors[] = 'Message is empty';
-   }
+    if(isset($_POST['submit'])) {
 
-   if (empty($errors)) {
-       $toEmail = 'irving101195@gmail.com';
-       $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
-       $bodyParagraphs = ["Name: {$name}", "Pet Name: {$subject}", "Email: {$email}", "Message:", $message];
-       $body = join(PHP_EOL, $bodyParagraphs);
+        $mail = new PHPMailer(true);
 
-       if (mail($toEmail, $subject, $body, $headers)) 
+        $mail->SMTPDebug = 0;
 
-           header('Location: thankyou.html');
-       } else {
-           $errorMessage = 'Oops, something went wrong. Please try again later';
-       }
+        $mail->Host = 'smtp.mboxhosting.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = $myAwardSpaceEmail;
+        $mail->Password = $myAwardSpaceEmailPassword;
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
 
-   } else {
+        $mail->setFrom($myAwardSpaceEmail, 'Mailer');
+        $mail->addAddress($myPersonalEmail);
+        $mail->addReplyTo($_POST['email'], $_POST['name']);
 
-       $allErrors = join('<br/>', $errors);
-       $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
-   }
+        $mail->isHTML(true);    
+        $mail->Subject = $_POST['subject'];
+        $mail->Body = $_POST['message'];
 
+        try {
+            $mail->send();
+            echo 'Your message was sent successfully!';
+        } catch (Exception $e) {
+            echo "Your message could not be sent! PHPMailer Error: {$mail->ErrorInfo}";
+        }
+        
+    } else {
+        echo "There is a problem with the contact.html document!";
+    }
+    
 ?>

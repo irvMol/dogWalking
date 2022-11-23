@@ -5,14 +5,16 @@ services:
 
   # Nginx Service
   nginx:
-    image: nginx:1.21
+    image: nginx:1.21-alpine
     ports:
       - 80:80
     volumes:
       - ./src:/var/www/php
       - ./.docker/nginx/conf.d:/etc/nginx/conf.d
+      - phpmyadmindata:/var/www/phpmyadmin
     depends_on:
       - php
+      - phpmyadmin
 
   # PHP Service
   php:
@@ -28,7 +30,7 @@ services:
   mysql:
     image: mysql/mysql-server:8.0
     environment:
-      MYSQL_ROOT_PASSWORD: R2tP8$r6
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_ROOT_HOST: "%"
       MYSQL_DATABASE: dogwalk
     volumes:
@@ -41,26 +43,27 @@ services:
 
   # PhpMyAdmin Service
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin:5
-    ports:
-      - 8080:80
+    image: phpmyadmin/phpmyadmin:5-fpm-alpine
     environment:
       PMA_HOST: mysql
+    volumes:
+      - phpmyadmindata:/var/www/html
     depends_on:
       mysql:
         condition: service_healthy
 
-  #Mailhog Service  
-  mailhog:  
-    image: mailhog/mailhog
-    # logging:
-    #   driver: 'none'  # disable saving logs
-    ports:
-      - 1025:1025 # smtp server
-      - 8025:8025 # web ui      
+  # Composer service
+  composer:
+      restart: 'no'
+      container_name: composer
+      image: "composer"
+      command: install
+      volumes:
+        - ./src/assets/php:/app
 
 # Volumes
 volumes:
 
   mysqldata:
 
+  phpmyadmindata:

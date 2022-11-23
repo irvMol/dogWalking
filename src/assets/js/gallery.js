@@ -27,21 +27,20 @@ $(document).ready(function(){
 
 function populate() {
 
-const items = document.querySelectorAll('.item');
+const thumbnails = document.querySelectorAll('.thumbnail');
+const links = document.querySelectorAll('.imgLink');
 
-items.forEach(item => {
 
-  let rand = Math.floor(Math.random() * pictures.length);
-  
+for (let i = 0; i < links.length; i++) {
+
+  let rand = Math.floor(Math.random() * pictures.length);  
   let path = (dir.concat(pictures[rand]))
   console.log(path)
-  item.src = path;
-  // item.href = path;
-  item.setAttribute("href", path);
-  
 
-});
+  links[i].href = path;
+  thumbnails[i].src = path;
+}
 
-    refreshFsLightbox();
+  refreshFsLightbox();
 
   }
