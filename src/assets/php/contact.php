@@ -1,47 +1,77 @@
+
 <?php
+
+chdir('vendor/phpmailer/phpmailer/src');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
-
-    $myAwardSpaceEmail = "your-AwardSpace-email-goes-here";
-    $myAwardSpaceEmailPassword = "your-AwardSpace-email-password-goes-here";
-    $myPersonalEmail = "your-personal-email-goes-here";
+require 'SMTP.php';
+require 'PHPMailer.php';
+require 'Exception.php';
 
 
-    if(isset($_POST['submit'])) {
 
-        $mail = new PHPMailer(true);
 
-        $mail->SMTPDebug = 0;
 
-        $mail->Host = 'smtp.mboxhosting.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = $myAwardSpaceEmail;
-        $mail->Password = $myAwardSpaceEmailPassword;
-        $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
+$nameSanitized = filter_var($_POST['name'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+$emailSanitized = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+$messageSanitized = filter_var($_POST['message'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
-        $mail->setFrom($myAwardSpaceEmail, 'Mailer');
-        $mail->addAddress($myPersonalEmail);
-        $mail->addReplyTo($_POST['email'], $_POST['name']);
 
-        $mail->isHTML(true);    
-        $mail->Subject = $_POST['subject'];
-        $mail->Body = $_POST['message'];
 
-        try {
-            $mail->send();
-            echo 'Your message was sent successfully!';
-        } catch (Exception $e) {
-            echo "Your message could not be sent! PHPMailer Error: {$mail->ErrorInfo}";
-        }
-        
-    } else {
-        echo "There is a problem with the contact.html document!";
+
+// Validate $emailSanitized
+if (!filter_var($emailSanitized, FILTER_VALIDATE_EMAIL) === false) {
+    echo ("$emailSanitized is a valid email address <br>");
+
+      // Send a notification by email
+      $submission = array(
+        'message' => $messageSanitized,
+        'name' => $nameSanitized,
+        'email' => $emailSanitized
+    );
+      sendEmail($submission);
     }
+
+else {
+    echo ("$emailSanitized is not a valid email address");
+  }
+
+
+function sendEmail($submission) {
+
+    $appEmail = "alyssa.b@frontrangedogs.com";
+    $emailPassword = "82QZ6QYB7CsRRrR";
+    $myPersonalEmail = "alyssablack123@gmail.com";
     
+    $mail = new PHPMailer(true);
+
+    $mail->SMTPDebug = 0;
+
+    $mail->Host = 'smtppro.zoho.com';
+    $mail->SMTPAuth = true;
+    $mail->Username = $appEmail;
+    $mail->Password = $emailPassword;
+    $mail->SMTPSecure = 'tls';
+    $mail->Port = 587;
+
+    $mail->setFrom($appEmail, 'Front Range Dogs');
+    $mail->addAddress($myPersonalEmail);
+    $mail->addReplyTo($_POST['email'], $_POST['name']);
+
+    $mail->isSMTP(true);    
+    $mail->Subject = $_POST['subject'] ." loved by " . $_POST['name'];
+    $mail->Body = $_POST['message'];
+
+
+     try {
+         $mail->send();
+         echo 'Your message was sent successfully!';
+     } catch (Exception $e) {
+         echo "Your message could not be sent! PHPMailer Error: {$mail->ErrorInfo}";
+     }
+  }
+
 ?>
+
