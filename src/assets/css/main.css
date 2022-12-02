@@ -7,15 +7,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, u, i, ul, li,
-article, aside, footer, header, nav, section {
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+a, abbr, u, i, ul, li, article, aside, footer, header, nav, section {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 
 .img-row{
@@ -39,16 +39,10 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
+ul {
 	list-style: none;
 }
 
-
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 body {
 	-webkit-text-size-adjust: none;
@@ -167,7 +161,7 @@ input, select, textarea {
 	p {
 		margin: 0 0 2rem 0;
 	}
-/* h3 missing below */
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
@@ -181,8 +175,10 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
-		margin: 0 0 1rem 0;
+		margin: 0 0 2rem 0;
+		padding: 25px 5px;
 		letter-spacing: 0.2rem;
+		quotes: none;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -297,6 +293,7 @@ input, select, textarea {
 		}
 
 		form > .fields {
+			text-align: center;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -460,7 +457,7 @@ input, select, textarea {
 		float: left;
 		margin-right: -2rem;
 		opacity: 0;
-		width: 1rem;
+		width: .75rem;
 		z-index: -1;
 	}
 
@@ -1190,11 +1187,11 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
+			width: 5rem;
+			height: 5rem;
+			/* line-height: 6rem;
 			border: solid 1px #ffffff;
-			border-radius: 100%;
+			border-radius: 100%; */
 		}
 
 			#header .logo .icon:before {

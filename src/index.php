@@ -22,9 +22,10 @@
 
 				<!-- Header -->
 					<header id="header">
-						<div class="logo">
-							<span class="fa-solid fa-person-hiking"></span>
+						<div>
+							<img class ="logo icon" src="assets/images/logoSimple.png" alt="logo">
 						</div>
+
 						<div class="content">
 							<div class="inner">
 								<h1>Front Range Dogs</h1>
@@ -75,43 +76,60 @@
 							<article id="gallery">
 								<h2 class="major">Photo Gallery</h2>
 								
-							<section class="img-row" id="rowOne">
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-							</section>
+								<section class="img-row" id="rowOne">
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+								</section>
 
-							<section class="img-row" id="rowTwo">
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
-							</section>
-							
-							<section class="img-row" id="rowThree">
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-								<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-							</section>
+								<section class="img-row" id="rowTwo">
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
+								</section>
 								
+								<section class="img-row" id="rowThree">
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+								</section>								
 
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="assets/php/contact.php">
+								<form method="post" id ="contactForm">
+								<!-- <form method="post" class = "contact" action="assets/php/contact.php"> -->
 									<div class="fields">
-										<div class="field half">
+										<div class="field third">
 											<label for="name">Name</label>
 											<input type="text" name="name" id="name" pattern=[A-Z\sa-z]{3,30} required>
 										</div>
 
-										<div class="field half">
+										<div class="field third">
 											<label for="pet">Pets' Name</label>
 											<input type="text" name="subject" id="pet" pattern=[A-Z\sa-z]{3,30} required>
+										</div>
+
+										<div class="field third">
+											<input type="radio" name="pet" id="dog">
+												<label for="dog">
+													<i class="fa fa-dog"></i>
+												</label>
+												
+											<input type="radio" name="pet" id="cat">
+												<label for="cat">
+													<i class="fa fa-cat"></i>
+												</label>      
+											
+											<!-- <input type="radio" name="pet" id="other">
+											<label for="other">
+												<i class="fa fa-dragon"></i>
+											</label>    	 -->
 										</div>
 
 										<div class="field">
@@ -130,8 +148,8 @@
 								</form>
 								
 								<ul class="icons">
-									<li><a href="#" class="fa-solid fa-paw fa-beat" style="--fa-animation-duration: 4s;"></a></li>
-									<li><a href="#" class="fa-brands fa-linkedin fa-beat" style="--fa-animation-duration: 4s;"></a></li>
+									<li><a href="https://r.rover.com/iCnW8V" class="fa-solid fa-paw fa-beat" style="--fa-animation-duration: 4s;"></a></li>
+									<li><a href="https://www.linkedin.com/in/alyssa-black-772aa21a4" class="fa-brands fa-linkedin fa-beat" style="--fa-animation-duration: 4s;"></a></li>
 									<li><a href="#" class="fa-brands fa-instagram fa-beat" style="--fa-animation-duration: 4s;"></a></li>
 									<li><a href="https://github.com/irvMol/dogWalking" class="fa-brands fa-github fa-beat" style="--fa-animation-duration: 4s;"></a></li>
 								</ul>
@@ -151,7 +169,7 @@
 
 		<!-- BG -->
 			<div id="bg"></div>
-
+			
 		<!-- Scripts -->
 
 			<script src="assets/js/jquery.min.js"></script>
@@ -161,6 +179,7 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/gallery.js"></script>
 			<script src="assets/js/fslightbox.js"></script>
+			<script src="assets/js/contact.js"></script>
 
 
 	</body>

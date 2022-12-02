@@ -43,12 +43,14 @@ function sendEmail($submission) {
 
     $appEmail = "alyssa.b@frontrangedogs.com";
     $emailPassword = "82QZ6QYB7CsRRrR";
-    $myPersonalEmail = "alyssablack123@gmail.com";
+    $myPersonalEmail = "dev.irvmol@gmail.com";
+    // "alyssablack.co@gmail.com";
     
     $mail = new PHPMailer(true);
 
     $mail->SMTPDebug = 0;
 
+    $mail->isSMTP(true);
     $mail->Host = 'smtppro.zoho.com';
     $mail->SMTPAuth = true;
     $mail->Username = $appEmail;
@@ -60,8 +62,8 @@ function sendEmail($submission) {
     $mail->addAddress($myPersonalEmail);
     $mail->addReplyTo($_POST['email'], $_POST['name']);
 
-    $mail->isSMTP(true);    
-    $mail->Subject = $_POST['subject'] ." loved by " . $_POST['name'];
+    $mail->isHTML(true);
+    $mail->Subject = $_POST['subject'] .", loved by " . $_POST['name'];
     $mail->Body = $_POST['message'];
 
 
