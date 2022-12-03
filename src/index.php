@@ -116,6 +116,7 @@
 										</div>
 
 										<div class="field third">
+											<label for="pet">Pet Type</label>
 											<input type="radio" name="pet" id="dog">
 												<label for="dog">
 													<i class="fa fa-dog"></i>
