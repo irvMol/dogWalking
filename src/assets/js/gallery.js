@@ -12,7 +12,7 @@ $(function() {
     method: "GET",
     success: function(fileNames) {
       console.log(fileNames);
-      console.log("SUCCESS")
+      console.log("Retrieved images successfully")
       
 
       for(var i in fileNames) {

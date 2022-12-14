@@ -3,7 +3,6 @@
 header('Content-Type: application/json');
 
  chdir('../images');
-// chdir('../imagesTest');
 
 $dir = getcwd();
 

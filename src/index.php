@@ -23,7 +23,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div>
-							<img class ="logo icon" src="assets/images/logoSimple.png" alt="logo">
+							<img class ="logo icon" src="assets/graphics/logoSimple.png" alt="logo">
 						</div>
 
 						<div class="content">
@@ -37,7 +37,7 @@
 								<li><a href="#intro">About Alyssa</a></li>
 								<li><a href="#work">Services</a></li>
 								<li><a id="galleryBtn" href="#gallery">Photo Roll</a></li>
-								<li><a href="#contact">Interested?</a></li>								
+								<li><a id = "contactBtn" href="#contact">Interested?</a></li>								
 							</ul>
 						</nav>
 					</header>
@@ -50,7 +50,7 @@
 								<h2 class="major">Introduction</h2>
 								<q>I believe a tired dog, is a happy dog.</q>
 
-								<!-- <span class="image main"><img src="assets/images/bio.jpg" alt="" /></span> -->
+								<!-- <span class="image main"><img src="assets/graphics/bio.jpg" alt="" /></span> -->
 								<p>Hello! My name is Alyssa Black, and I provide pet care services in Westminster, CO and the
 								surrounding areas. Working with animals, especially our beloved canines, has been my passion since I was a child.
 								I’ve been living with and caring for dogs my entire life, and have been professionally dog sitting and walking for the last seven years.
@@ -63,11 +63,11 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
-								<span class="image main"><img src="assets/images/walk.jpg" alt="" /></span>
+								<span class="image main"><img src="assets/graphics/walk.jpg" alt="" /></span>
 								<h3> Dog Walking </h3>
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
 		
-								<span class="image main"><img src="assets/images/sit.jpg" alt="" /></span>
+								<span class="image main"><img src="assets/graphics/sit.jpg" alt="" /></span>
 								<h3> Pet Sitting </h3>
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
 							</article>
@@ -77,85 +77,101 @@
 								<h2 class="major">Photo Gallery</h2>
 								
 								<section class="img-row" id="rowOne">
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
 								</section>
 
 								<section class="img-row" id="rowTwo">
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic02.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic02.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic02.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic02.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic02.jpg" alt="Image" ></a>
 								</section>
 								
 								<section class="img-row" id="rowThree">
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/images/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
 								</section>								
 
 							</article>
 
 						<!-- Contact -->
+							
 							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" id ="contactForm">
-								<!-- <form method="post" class = "contact" action="assets/php/contact.php"> -->
-									<div class="fields">
-										<div class="field third">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" pattern=[A-Z\sa-z]{3,30} required>
-										</div>
+								<section id="formView" >
+									<h2 class="major" id >Contact</h2>
+									
+									<form method="post" id ="contactForm">
+										<div class="fields">
+											<div class="field third">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" pattern=[A-Z\sa-z]{3,30} required>
+											</div>
 
-										<div class="field third">
-											<label for="pet">Pets' Name</label>
-											<input type="text" name="subject" id="pet" pattern=[A-Z\sa-z]{3,30} required>
-										</div>
+											<div class="field third">
+												<label for="pet">Pets' Name</label>
+												<input type="text" name="subject" id="pet" pattern=[A-Z\sa-z]{3,30} required>
+											</div>
 
-										<div class="field third">
-											<label for="pet">Pet Type</label>
-											<input type="radio" name="pet" id="dog">
-												<label for="dog">
-													<i class="fa fa-dog"></i>
-												</label>
+											<div class="field third">
+												<label for="pet">Pet Type</label>
+												<input type="radio" name="pet" value="dog" id="dog">
+													<label for="dog">
+														<i class="fa fa-dog"></i>
+													</label>
+													
+												<input type="radio" name="pet" value="cat" id="cat">
+													<label for="cat">
+														<i class="fa fa-cat"></i>
+													</label>      
 												
-											<input type="radio" name="pet" id="cat">
-												<label for="cat">
-													<i class="fa fa-cat"></i>
-												</label>      
-											
-											<!-- <input type="radio" name="pet" id="other">
-											<label for="other">
-												<i class="fa fa-dragon"></i>
-											</label>    	 -->
-										</div>
+												<!-- <input type="radio" name="pet" id="other">
+												<label for="other">
+													<i class="fa fa-dragon"></i>
+												</label>    	 -->
+											</div>
 
-										<div class="field">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" required>
+											<div class="field">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" required>
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="4" required></textarea>
+											</div>
 										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4" required></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+									
+									<ul class="icons">
+										<li><a href="https://r.rover.com/iCnW8V" class="fa-solid fa-paw fa-beat" style="--fa-animation-duration: 4s;"></a></li>
+										<li><a href="https://www.linkedin.com/in/alyssa-black-772aa21a4" class="fa-brands fa-linkedin fa-beat" style="--fa-animation-duration: 4s;"></a></li>
+										<li><a href="#" class="fa-brands fa-instagram fa-beat" style="--fa-animation-duration: 4s;"></a></li>
+										<li><a href="https://github.com/irvMol/dogWalking" class="fa-brands fa-github fa-beat" style="--fa-animation-duration: 4s;"></a></li>
 									</ul>
-								</form>
-								
-								<ul class="icons">
-									<li><a href="https://r.rover.com/iCnW8V" class="fa-solid fa-paw fa-beat" style="--fa-animation-duration: 4s;"></a></li>
-									<li><a href="https://www.linkedin.com/in/alyssa-black-772aa21a4" class="fa-brands fa-linkedin fa-beat" style="--fa-animation-duration: 4s;"></a></li>
-									<li><a href="#" class="fa-brands fa-instagram fa-beat" style="--fa-animation-duration: 4s;"></a></li>
-									<li><a href="https://github.com/irvMol/dogWalking" class="fa-brands fa-github fa-beat" style="--fa-animation-duration: 4s;"></a></li>
-								</ul>
+								</section>
+
+								<section id="formSubmitted">
+									<img src="assets/graphics/success.png" alt="successful submission">
+									<h2>Message sent successfully!</h2>
+								</section>
+
+								<section id="formFailed">
+									<img src="assets/graphics/fail.png" alt="error in submission">
+									<h2>Message Failed!</h2>
+									<h4 id="errorMsg"></h4>
+								</section>
+
 							</article>
 
+								
 						<!-- Elements -->
 
 

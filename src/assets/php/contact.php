@@ -23,7 +23,7 @@ $messageSanitized = filter_var($_POST['message'], FILTER_SANITIZE_FULL_SPECIAL_C
 
 // Validate $emailSanitized
 if (!filter_var($emailSanitized, FILTER_VALIDATE_EMAIL) === false) {
-    echo ("$emailSanitized is a valid email address <br>");
+    // echo ("$emailSanitized is a valid email address <br>");
 
       // Send a notification by email
       $submission = array(
@@ -69,9 +69,9 @@ function sendEmail($submission) {
 
      try {
          $mail->send();
-         echo 'Your message was sent successfully!';
+         echo 0;
      } catch (Exception $e) {
-         echo "Your message could not be sent! PHPMailer Error: {$mail->ErrorInfo}";
+         echo ("Your message could not be sent! PHPMailer Error: {$mail->ErrorInfo}");
      }
   }
 

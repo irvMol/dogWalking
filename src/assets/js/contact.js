@@ -1,25 +1,4 @@
-// $(document).ready(function () {
-//     $("form").submit(function (event) {
-//       var formData = {
-//         name: $("#name").val(),
-//         email: $("#email").val(),
-//         subject: $("#pet").val(),
-//         message: $("#message").val()
-//       };
-  
-//       $.ajax({
-//         type: "POST",
-//         url: "assets/php/contact.php",
-//         data: formData,
-//         dataType: "json",
-//         encode: true,
-//       }).done(function (data) {
-//         console.log(data);
-//       });
-  
-//       event.preventDefault();
-//     });
-//   });
+document.getElementById('contactBtn').addEventListener('click', resetView);
 
 
 $(document).ready(function(){
@@ -29,8 +8,35 @@ $(document).ready(function(){
       var formValues= $(this).serialize();
 
       $.post("assets/php/contact.php", formValues, function(data){
-          // Display the returned data in browser
-          console.log(data);
+        
+
+        // Display the returned data in browser
+          if (parseInt(data) == 0){
+            success();
+          }
+          
+          else{
+            fail(data);
+          }
       });
   });
 });
+
+function success() {
+  document.getElementById("formView").style.display = "none";
+  document.getElementById("formSubmitted").style.display = "block";
+
+}
+
+function fail(error) {
+  document.getElementById("formView").style.display = "none";
+  document.getElementById("formFailed").style.display = "block";
+  document.getElementById("errorMsg").innerHTML = error;
+
+}
+
+function resetView() {
+  document.getElementById("formView").style.display = "block";
+  document.getElementById("formSubmitted").style.display = "none";
+  document.getElementById("formFailed").style.display = "none";
+}
