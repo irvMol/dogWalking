@@ -77,24 +77,24 @@
 								<h2 class="major">Photo Gallery</h2>
 								
 								<section class="img-row" id="rowOne">
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/dog.png" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/dog.png" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/dog.png" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/dog.png" alt="Image" ></a>
 								</section>
 
 								<section class="img-row" id="rowTwo">
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic02.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic02.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic02.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic02.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/cat.png" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/cat.png" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/cat.png" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/cat.png" alt="Image" ></a>
 								</section>
 								
 								<section class="img-row" id="rowThree">
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
-									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/pic01.jpg" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/dog.png" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/dog.png" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/dog.png" alt="Image" ></a>
+									<a data-fslightbox class="imgLink" href=""><img class="thumbnail" src="assets/graphics/dog.png" alt="Image" ></a>
 								</section>								
 
 							</article>
@@ -151,10 +151,10 @@
 									</form>
 									
 									<ul class="icons">
-										<li><a href="https://r.rover.com/iCnW8V" class="fa-solid fa-paw fa-beat" style="--fa-animation-duration: 4s;"></a></li>
-										<li><a href="https://www.linkedin.com/in/alyssa-black-772aa21a4" class="fa-brands fa-linkedin fa-beat" style="--fa-animation-duration: 4s;"></a></li>
-										<li><a href="#" class="fa-brands fa-instagram fa-beat" style="--fa-animation-duration: 4s;"></a></li>
-										<li><a href="https://github.com/irvMol/dogWalking" class="fa-brands fa-github fa-beat" style="--fa-animation-duration: 4s;"></a></li>
+										<li><a href="https://r.rover.com/iCnW8V" class="fa fa-solid fa-paw" style="--fa-animation-duration: 4s;"></a></li>
+										<li><a href="https://www.linkedin.com/in/alyssa-black-772aa21a4" class="fa fa-brands fa-linkedin" style="--fa-animation-duration: 4s;"></a></li>
+										<li><a href="#" class="fa fa-brands fa-instagram" style="--fa-animation-duration: 4s;"></a></li>
+										<li><a href="https://github.com/irvMol/dogWalking" class="fa fa-brands fa-github" style="--fa-animation-duration: 4s;"></a></li>
 									</ul>
 								</section>
 

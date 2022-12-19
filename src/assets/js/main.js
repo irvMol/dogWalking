@@ -4,6 +4,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+$(document).ready(function () {
+    $(".fa").hover(function () {
+      $(this).toggleClass("fa-beat");
+    });
+  });
+
 
 
 (function($) {
