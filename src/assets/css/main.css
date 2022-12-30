@@ -16,7 +16,12 @@ a, u, i, ul, li, article, aside, footer, header, nav, section {
 	vertical-align: baseline;
 }
 
+.alert-img{
+	padding-bottom: 15px;
+	max-width: 180px;
+	max-height: 180px;
 
+}
 .img-row{
 	display: flex;
 	align-items: center;
@@ -1564,4 +1569,5 @@ input, select, textarea {
 /* Form sumbission Message		 */
 #formSubmitted, #formFailed{
 	display: none;
+	text-align: center;
 }

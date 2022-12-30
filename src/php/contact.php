@@ -44,7 +44,7 @@ function sendEmail($submission) {
     $appEmail = "alyssa.b@frontrangedogs.com";
     $emailPassword = "82QZ6QYB7CsRRrR";
     $myPersonalEmail = "dev.irvmol@gmail.com";
-    // "alyssablack.co@gmail.com";
+    //"alyssablack.co@gmail.com";
     
     $mail = new PHPMailer(true);
 
@@ -64,7 +64,7 @@ function sendEmail($submission) {
 
     $mail->isHTML(true);
     $mail->Subject = $_POST['subject'] .", loved by " . $_POST['name'];
-    $mail->Body = $_POST['message'];
+    $mail->Body = '<html> '. $_POST['message'] . ' </html>';
 
 
      try {
