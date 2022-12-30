@@ -59,7 +59,7 @@ services:
       image: "composer"
       command: install
       volumes:
-        - ./src/assets/php:/app
+        - ./src/php:/app
 
 # Volumes
 volumes:

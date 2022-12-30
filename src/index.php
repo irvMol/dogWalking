@@ -65,11 +65,17 @@
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="assets/graphics/walk.jpg" alt="" /></span>
 								<h3> Dog Walking </h3>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-		
+									<p>	Booking a walking request with your dog(s) consists of a stimulated, outdoor walk around your neighborhood/location for the amount of time requested. 
+										This includes a structured or non structured walk (or combination of the two), waste cleanup, water and feeding if needed, and, of course, an unending amount of love and affection for the dog.
+										The client must provide a proper leash and collar and/or harness for their pet. The pet will be leashed for each walk, unless specified by owner. In the case of off leash walks, the pet must be fully recall trained. If located in or requesting outings to Boulder County, sight and sound tags are required for off leash work.
+									</p>		
 								<span class="image main"><img src="assets/graphics/sit.jpg" alt="" /></span>
 								<h3> Pet Sitting </h3>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+									<p>Booking an overnight pet sitting request will entail an overnight stay at the clients household with the pet(s). 
+										An overnight sit consists of full care for your pet in your household, including feeding/watering, administering medication if needed, a walk or outing at least 1x day, and quality affection time with the pet. 
+										Most additional pet needs can easily be accommodated and can be communicated through the initial booking request.
+									</p>
+									<span>I look forward to helping you and your dog live their happiest, healthiest, and fullest life!  🐶</span>							
 							</article>
 
 						<!-- gallery -->

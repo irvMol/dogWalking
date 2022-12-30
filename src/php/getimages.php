@@ -2,7 +2,7 @@
 
 header('Content-Type: application/json');
 
- chdir('../images');
+ chdir('../assets/images');
 
 $dir = getcwd();
 

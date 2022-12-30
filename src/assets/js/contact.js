@@ -7,7 +7,7 @@ $(document).ready(function(){
       event.preventDefault();
       var formValues= $(this).serialize();
 
-      $.post("assets/php/contact.php", formValues, function(data){
+      $.post("/php/contact.php", formValues, function(data){
         
 
         // Display the returned data in browser

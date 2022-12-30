@@ -8,7 +8,7 @@ var pictures= [];
 
 $(function() {
   $.ajax({
-    url: "http://php.test/assets/php/getimages.php",
+    url: "http://php.test/php/getimages.php",
     method: "GET",
     success: function(fileNames) {
       console.log(fileNames);
