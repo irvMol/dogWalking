@@ -9,7 +9,7 @@ One of the most notable features is a dynamic image gallery that repopulates eve
 The contact form was developed with PHP's PHPMailer library using an external SMTP server. The form leverages AJAX to submit the contact request seamlessly and intuitively as well as displaying any mailing error codes to the client.
 
 # Disclaimer
-This website is based from template found on the web. Below are the original creators' comments about the template:
+This website is based from a template found on the web. Below are the original creators' comments about the template:
 	This is Dimension, a fun little one-pager with modal-ized "pages"
 	and a cool depth effect (click on a menu item to see what I mean). Simple, fully
 	responsive, and kitted out with all the usual pre-styled elements you'd expect.

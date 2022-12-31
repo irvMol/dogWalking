@@ -23,7 +23,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div>
-							<img class ="logo icon" src="assets/graphics/logoSimple.png" alt="logo">
+							<img class ="logo icon" src="assets/graphics/logo.png" alt="logo">
 						</div>
 
 						<div class="content">
@@ -66,8 +66,8 @@
 								<span class="image main"><img src="assets/graphics/walk.jpg" alt="" /></span>
 								<h3> Dog Walking </h3>
 									<p>	Booking a walking request with your dog(s) consists of a stimulated, outdoor walk around your neighborhood/location for the amount of time requested. 
-										This includes a structured or non structured walk (or combination of the two), waste cleanup, water and feeding if needed, and, of course, an unending amount of love and affection for the dog.
-										The client must provide a proper leash and collar and/or harness for their pet. The pet will be leashed for each walk, unless specified by owner. In the case of off leash walks, the pet must be fully recall trained. If located in or requesting outings to Boulder County, sight and sound tags are required for off leash work.
+										This includes a structured or non-structured walk (or combination of the two), waste cleanup, water and feeding if needed, and, of course, an unending amount of love and affection for your pup.
+										The client must provide a proper leash and collar and/or harness for their pet. The pet will be leashed for each walk, unless specified by owner. In the case of off-leash requests, the pet must be fully recall trained. If located in or requesting outings to Boulder County, sight and sound tags are required for off-leash work.
 									</p>		
 								<span class="image main"><img src="assets/graphics/sit.jpg" alt="" /></span>
 								<h3> Pet Sitting </h3>
@@ -159,7 +159,7 @@
 									<ul class="icons">
 										<li><a href="https://r.rover.com/iCnW8V" class="fa fa-solid fa-paw" style="--fa-animation-duration: 4s;"></a></li>
 										<li><a href="https://www.linkedin.com/in/alyssa-black-772aa21a4" class="fa fa-brands fa-linkedin" style="--fa-animation-duration: 4s;"></a></li>
-										<li><a href="#" class="fa fa-brands fa-instagram" style="--fa-animation-duration: 4s;"></a></li>
+										<!-- <li><a href="#" class="fa fa-brands fa-instagram" style="--fa-animation-duration: 4s;"></a></li> -->
 										<li><a href="https://github.com/irvMol/dogWalking" class="fa fa-brands fa-github" style="--fa-animation-duration: 4s;"></a></li>
 									</ul>
 								</section>
