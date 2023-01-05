@@ -15,21 +15,17 @@ This website is based from a template found on the web. Below are the original c
 	responsive, and kitted out with all the usual pre-styled elements you'd expect.
 	Hope you dig it :)
 # Resources
-These are some resources I found helpful while creating this project. If you want to build something similar and don't know where to start, skim these resources alongside the dogWalking source code.
+These are some resources I found helpful while creating this project. If you want to build something similar and don't know where to start, skim these resources alongside the dogWalking source code:
 	
-	[Dockerizing LEMP](https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack)
+[Dockerizing LEMP](https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack)
 
-	Displaying Random image with JS:
-		https://www.peachpit.com/articles/article.aspx?p=2239154&seqNum=10
+[Displaying Random image with JS](https://www.peachpit.com/articles/article.aspx?p=2239154&seqNum=10)
 
-	Dynamically populating Javascript image array:
-		http://javascriptkit.com/javatutors/externalphp2.shtml
+[Dynamically populating Javascript image array](http://javascriptkit.com/javatutors/externalphp2.shtml)
 
-	PHPMailer common errors:	
-		https://netcorecloud.com/tutorials/phpmailer-smtp-error-could-not-connect-to-smtp-host/
+[PHPMailer common errors](https://netcorecloud.com/tutorials/phpmailer-smtp-error-could-not-connect-to-smtp-host/)
 
-	fsLightbox Documentation:
-		https://fslightbox.com/
+[fsLightbox Documentation](https://fslightbox.com/javascript/documentation)
 
 # Credits:
 
