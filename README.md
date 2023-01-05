@@ -14,6 +14,13 @@ This website is based from a template found on the web. Below are the original c
 	and a cool depth effect (click on a menu item to see what I mean). Simple, fully
 	responsive, and kitted out with all the usual pre-styled elements you'd expect.
 	Hope you dig it :)
+# Resources
+These are some resources I found helpful while creating this project. If you want to build something similar and don't know where to start, skim these resources alongside the dogWalking source code.
+	https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack
+	https://www.peachpit.com/articles/article.aspx?p=2239154&seqNum=10
+	http://javascriptkit.com/javatutors/externalphp2.shtml
+	https://netcorecloud.com/tutorials/phpmailer-smtp-error-could-not-connect-to-smtp-host/
+	https://fslightbox.com/
 
 # Credits:
 
@@ -29,6 +36,7 @@ This website is based from a template found on the web. Below are the original c
 		Font Awesome (fontawesome.io)
 
 	Other:
+		fsLightbox (https://fslightbox.com)
 		PHPMailer (https://github.com/PHPMailer/PHPMailer)
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
