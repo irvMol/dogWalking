@@ -17,8 +17,7 @@ This website is based from a template found on the web. Below are the original c
 # Resources
 These are some resources I found helpful while creating this project. If you want to build something similar and don't know where to start, skim these resources alongside the dogWalking source code.
 	
-	[Dockerizing LEMP]:
-		(https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack)
+	[Dockerizing LEMP](https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack)
 
 	Displaying Random image with JS:
 		https://www.peachpit.com/articles/article.aspx?p=2239154&seqNum=10
