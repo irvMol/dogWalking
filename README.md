@@ -32,7 +32,7 @@ These are some resources I found helpful while creating this project. If you wan
 
 [fsLightbox Documentation](https://fslightbox.com/javascript/documentation)
 
-## Credits:
+## Credits
 
 Original Template:
     Dimension by HTML5 UP
@@ -46,7 +46,7 @@ Icons:
     Font Awesome (fontawesome.io)
 
 Other:
-    fsLightbox (https://fslightbox.com)
-    PHPMailer (https://github.com/PHPMailer/PHPMailer)
-    jQuery (jquery.com)
-    Responsive Tools (github.com/ajlkn/responsive-tools)
+    [fsLightbox](https://fslightbox.com)
+    [PHPMailer](https://github.com/PHPMailer/PHPMailer)
+    [jQuery](jquery.com)
+    [Responsive Tools](github.com/ajlkn/responsive-tools)
