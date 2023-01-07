@@ -27,4 +27,7 @@ jobs:
           VALIDATE_ALL_CODEBASE: true
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_PHP: false
+          
+          # Currently, only Markdown text is being linted.
+          VALIDATE_MARKDOWN: true
+          
