@@ -54,12 +54,12 @@ services:
 
   # Composer service
   composer:
-      restart: 'no'
-      container_name: composer
-      image: "composer"
-      command: install
-      volumes:
-        - ./src/php:/app
+    restart: 'no'
+    container_name: composer
+    image: "composer"
+    command: install
+    volumes:
+      - ./src/php:/app
 
 # Volumes
 volumes:
