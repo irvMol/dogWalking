@@ -168,7 +168,7 @@
 									<img class="alert-img" src="assets/graphics/success.png" alt="successful submission">
 									<h2>Message sent successfully!</h2>
 								</section>
-
+	
 								<section id="formFailed">
 									<img class="alert-img" src="assets/graphics/fail.png" alt="error in submission">
 									<h2>Message Failed!</h2>
