@@ -4,7 +4,7 @@ DogWalking is a responsive web app built with PHP and JavaScript. This site was 
 
 ## Image Gallery
 	
-One of the most notable features is a dynamic image gallery that repopulates every time the parent article is opened. To properly display these images, this website takes advantage of the fslightbox.js library.
+One of the most notable features is a dynamic image gallery that repopulates every time the parent article is opened. To properly display these images, this site takes advantage of the fslightbox.js library.
 
 ## Contact Form
 	
