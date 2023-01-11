@@ -37,8 +37,8 @@ services:
       # Uncomment this if IPv6 is not enabled on your host
       # DISABLE_IPV6: 'true'
     volumes:
-      - ../.docker/npm:/data
-      - ../.docker/letsencrypt:/etc/letsencrypt
+      - ./.docker/npm:/data
+      - ./.docker/letsencrypt:/etc/letsencrypt
     depends_on:
       mysql:
          condition: service_healthy
