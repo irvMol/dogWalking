@@ -73,7 +73,7 @@
 									</p>		
 								<span class="image main"><img src="assets/graphics/sit.jpg" alt="" /></span>
 								<h3> Pet Sitting </h3>
-									<p>Booking an overnight pet sitting request will entail an overnight stay at the clients household with the pet(s). 
+									<p> Booking an overnight pet sitting request will entail an overnight stay at the clients household with the pet(s). 
 										An overnight sit consists of full care for your pet in your household, including feeding/watering, administering medication if needed, a walk or outing at least 1x day, and quality affection time with the pet. 
 										Most additional pet needs can easily be accommodated and can be communicated through the initial booking request.
 									</p>
