@@ -46,8 +46,6 @@
 					<div id="main">
 
 						<!-- Intro -->
-						<h1>test</h1>
-						
 							<article id="intro">
 								<h2 class="major">Introduction</h2>
 								<q>I believe a tired dog, is a happy dog.</q>
