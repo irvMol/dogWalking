@@ -43,8 +43,7 @@ function sendEmail($submission) {
 
     $appEmail = "alyssa.b@frontrangedogs.com";
     $emailPassword = "82QZ6QYB7CsRRrR";
-    $myPersonalEmail = "dev.irvmol@gmail.com";
-    //"alyssablack.co@gmail.com";
+    $myPersonalEmail = "alyssablack.co@gmail.com";
     
     $mail = new PHPMailer(true);
 
