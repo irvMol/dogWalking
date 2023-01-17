@@ -8,7 +8,7 @@ var pictures= [];
 
 $(function() {
   $.ajax({
-    url: "http://107.191.44.137:8081/php/getimages.php",
+    url: "https://107.191.44.137:8081/php/getimages.php",
     method: "GET",
     success: function(fileNames) {
       console.log(fileNames);
