@@ -201,6 +201,7 @@ h6 {
 }
 
 q {
+  font-style: italic;
   color: #ffffff;
   font-weight: 600;
   line-height: 1.5;
