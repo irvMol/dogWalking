@@ -48,5 +48,5 @@ Icons:
 Other:
     [fsLightbox](https://fslightbox.com)
     [PHPMailer](https://github.com/PHPMailer/PHPMailer)
-    [jQuery](jquery.com)
-    [Responsive Tools](github.com/ajlkn/responsive-tools)
+    [jQuery](https://jquery.com)
+    [Responsive Tools](https://github.com/ajlkn/responsive-tools)

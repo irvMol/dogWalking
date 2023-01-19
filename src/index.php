@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>Front Range Dog Care </title>
 		<meta charset="utf-8" />
@@ -195,7 +195,7 @@
 			
 		<!-- Scripts -->
 
-			<!-- CDN jquery preffered -->
+			<!-- CDN jquery preferred -->
 			 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>			    
 			<!-- Fallback if CDN is not available -->
 			<script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>	

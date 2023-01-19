@@ -1,3 +1,6 @@
 TODO.md
 src/assets/images
 .env
+.docker
+!/.docker/php
+src/favicon.ico
