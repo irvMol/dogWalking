@@ -1034,7 +1034,7 @@ select {
   }
 
   body.is-preload #bg:before {
-    background-image: url("../graphics/bg.png");
+    background-color: #000000;
   }
 
   /* Wrapper */
