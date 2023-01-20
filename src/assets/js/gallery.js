@@ -32,10 +32,12 @@ function populate() {
 
     let rand = Math.floor(Math.random() * pictures.length);  
     let path = (dir.concat(pictures[rand]))
-    console.log(path)
+    let thumbPath = (dir + "thumbnails/" + pictures[rand])
+
+    console.log(thumbPath)
 
     links[i].href = path;
-    thumbnails[i].src = path;
+    thumbnails[i].src = thumbPath;
   }
 
   refreshFsLightbox();

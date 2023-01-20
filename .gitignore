@@ -2,11 +2,9 @@ TODO.md
 src/assets/images
 .env
 
+# Ignore .docker directory except for php subdirectory, which is where makefile is for php docker image
 !/.docker/
-# Ignore subdirectory and all including directories and files to match pattern as valid for the next pattern
 /.docker/*
-# This pattern only works with the two previous patterns
-# (i remember it was working alone on older git versions)
 !/.docker/php/
 
 src/favicon.ico
