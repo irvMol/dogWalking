@@ -1,27 +1,25 @@
 
 document.getElementById('galleryBtn').addEventListener('click', populate);
-var pictures= [];
+var pictures = [];
 
- const dir = "assets/images/";
- const thumbnails = document.querySelectorAll('.thumbnail');
- const links = document.querySelectorAll('.imgLink');
+const dir = "assets/images/";
+const thumbnails = document.querySelectorAll('.thumbnail');
+const links = document.querySelectorAll('.imgLink');
 
-$(function() {
+$(function () {
   $.ajax({
     url: "https://frontrangedogs.com/php/getimages.php",
     method: "GET",
-    success: function(fileNames) {
-      console.log(fileNames);
+    success: function (fileNames) {
       console.log("Retrieved images successfully")
-      
 
-      for(var i in fileNames) {
+      for (var i in fileNames) {
         pictures.push(fileNames[i]);
       }
 
     },
-    error: function(data) {
-      console.log("FAIL")
+    error: function (data) {
+      console.log("FAIL");
     }
   });
 });
@@ -30,11 +28,9 @@ function populate() {
 
   for (let i = 0; i < links.length; i++) {
 
-    let rand = Math.floor(Math.random() * pictures.length);  
-    let path = (dir.concat(pictures[rand]))
-    let thumbPath = (dir + "thumbnails/" + pictures[rand])
-
-    console.log(thumbPath)
+    let rand = Math.floor(Math.random() * pictures.length);
+    let path = (dir.concat(pictures[rand]));
+    let thumbPath = (dir + "thumbnails/" + pictures[rand]);
 
     links[i].href = path;
     thumbnails[i].src = thumbPath;
