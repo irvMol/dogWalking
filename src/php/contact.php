@@ -44,7 +44,7 @@ else {
 function sendEmail($submission) {
 
     //  $appEmail = "";
-    $emailPassword = "";
+    // $emailPassword = "";
     // $myPersonalEmail = "";
     $smtpHost = "smtppro.zoho.com";
     
