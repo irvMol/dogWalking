@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 header('Content-Type: application/json');
 
@@ -12,4 +12,5 @@ foreach(glob($dir.'/*.{jpg,JPG,jpeg,JPEG,png,PNG}',GLOB_BRACE) as $file){
 }
 
 echo json_encode($imag);
+
 ?>

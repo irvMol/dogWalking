@@ -1,6 +1,9 @@
 
 <?php
 
+// $dotenv = Dotenv\Dotenv::createImmutable(__DIR__, '.phpenv');
+// $dotenv->load();
+
 chdir('vendor/phpmailer/phpmailer/src');
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -23,7 +26,6 @@ $messageSanitized = filter_var($_POST['message'], FILTER_SANITIZE_FULL_SPECIAL_C
 
 // Validate $emailSanitized
 if (!filter_var($emailSanitized, FILTER_VALIDATE_EMAIL) === false) {
-    // echo ("$emailSanitized is a valid email address <br>");
 
       // Send a notification by email
       $submission = array(
@@ -44,13 +46,14 @@ function sendEmail($submission) {
     $appEmail = "alyssa.b@frontrangedogs.com";
     $emailPassword = "82QZ6QYB7CsRRrR";
     $myPersonalEmail = "alyssablack.co@gmail.com";
+    $smtpHost = "smtppro.zoho.com";
     
     $mail = new PHPMailer(true);
 
     $mail->SMTPDebug = 0;
 
     $mail->isSMTP(true);
-    $mail->Host = 'smtppro.zoho.com';
+    $mail->Host = $smtpHost;
     $mail->SMTPAuth = true;
     $mail->Username = $appEmail;
     $mail->Password = $emailPassword;

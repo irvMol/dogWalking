@@ -1,40 +1,56 @@
 
-document.getElementById('galleryBtn').addEventListener('click', populate);
+document.getElementById('galleryBtn').addEventListener('click', populateFromAPI);
 var pictures = [];
 
 const dir = "assets/images/";
 const thumbnails = document.querySelectorAll('.thumbnail');
 const links = document.querySelectorAll('.imgLink');
 
-$(function () {
-  $.ajax({
-    url: "https://frontrangedogs.com/php/getimages.php",
-    method: "GET",
-    success: function (fileNames) {
-      console.log("Retrieved images successfully")
+//use this if wanting to showcase images in a directory
+function populateFromFolder() {
 
-      for (var i in fileNames) {
-        pictures.push(fileNames[i]);
+  $(function () {
+    $.ajax({
+      url: "https://frontrangedogs.com/php/getimages.php",
+      method: "GET",
+      success: function (fileNames) {
+        console.log("Retrieved images successfully");
+
+        for (let i = 0; i < links.length; i++) {
+          let rand = Math.floor(Math.random() * fileNames.length);
+          let path = (dir.concat(fileNames[rand]));
+          let thumbPath = (dir + "thumbnails/" + fileNames[rand]);
+
+          links[i].href = path;
+          thumbnails[i].src = thumbPath;
+        }
+
+        refreshFsLightbox();
+      },
+      error: function (data) {
+        console.log("FAIL");
       }
-
-    },
-    error: function (data) {
-      console.log("FAIL");
-    }
+    });
   });
-});
+}
 
-function populate() {
+function populateFromAPI() {
+  fetch("https://dog.ceo/api/breeds/image/random/12")
+    .then((response) => response.json())
+    .then((data) => {
+      console.log("Retrieved images successfully");
 
-  for (let i = 0; i < links.length; i++) {
+      data.message.forEach((imageUrl, i) => {
+        let path = imageUrl;
+        let thumbPath = imageUrl; // You can adjust this if you have separate thumbnail URLs
 
-    let rand = Math.floor(Math.random() * pictures.length);
-    let path = (dir.concat(pictures[rand]));
-    let thumbPath = (dir + "thumbnails/" + pictures[rand]);
+        links[i].href = path;
+        thumbnails[i].src = thumbPath;
+      });
 
-    links[i].href = path;
-    thumbnails[i].src = thumbPath;
-  }
-
-  refreshFsLightbox();
+      refreshFsLightbox();
+    })
+    .catch((error) => {
+      console.error("Error fetching images:", error);
+    });
 }

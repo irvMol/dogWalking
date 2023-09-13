@@ -1,5 +1,8 @@
 TODO.md
 src/assets/images
+
+# env files
+src/php/.phpenv
 .env
 
 # Ignore .docker directory except for php subdirectory, which is where makefile is for php docker image

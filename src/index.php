@@ -30,7 +30,7 @@
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">About Alyssa</a></li>
+								<li><a href="#intro">About</a></li>
 								<li><a href="#work">Services</a></li>
 								<li><a id="galleryBtn" href="#gallery">Photo Roll</a></li>
 								<li><a id = "contactBtn" href="#contact">Interested?</a></li>								
@@ -44,15 +44,15 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Introduction</h2>
-								<q>I believe a tired dog, is a happy dog.</q>
+								<q>A strong web presence for your business</q>
 
 								<!-- <span class="image main"><img src="assets/graphics/bio.jpg" alt="" /></span> -->
-								<p>Hello! My name is Alyssa Black, and I provide pet care services in Westminster, CO and the
-								surrounding areas. Working with animals, especially our beloved canines, has been my passion since I was a child.
-								I’ve been living with and caring for dogs my entire life, and have been professionally dog sitting and walking for the last seven years.
-								I have extensive experience with many different types of dog breeds, and all sizes and ages - from hour old puppies to elderly dogs. 
-								I’ve performed a large variety of care services, from extended overnight stays, drop-ins multiple times a day, to light grooming and training sessions.
-								Along with all of my experience with dogs, I am also First Aid and CPR certified.
+								<p>Hello! I'm a passionate and experienced dog walker and sitter. 
+									With over five years in the pet care industry, I've developed a deep love for animals, especially dogs. 
+									Each walk is a chance for me to create enriching experiences tailored to the needs of the furry companion. 
+									As a sitter, I provide a safe and comfortable environment, ensuring your pet feels right at home. 
+									Rest assured, your beloved dog will be in loving and capable hands with me. 
+									Let's make your dog's day wag-tastic!
 								</p>
 							</article>
 
@@ -61,17 +61,21 @@
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="assets/graphics/walk.jpg" alt="" /></span>
 								<h3> Dog Walking </h3>
-									<p>	Booking a walking request with your dog(s) consists of a stimulated, outdoor walk around your neighborhood/location for the amount of time requested. 
-										This includes a structured or non-structured walk (or combination of the two), waste cleanup, water and feeding if needed, and, of course, an unending amount of love and affection for your pup.
-										The client must provide a proper leash and collar and/or harness for their pet. The pet will be leashed for each walk, unless specified by owner. In the case of off-leash requests, the pet must be fully recall trained. If located in or requesting outings to Boulder County, sight and sound tags are required for off-leash work.
+									<p>	During our dog walks, your furry friend and I will embark on exciting and enriching adventures. 
+										We'll explore scenic trails, stroll through local parks, and enjoy one-on-one playtime. 
+										I'll make sure to cater the walk to your dog's energy levels and preferences, whether they love to run and play fetch or prefer a leisurely pace. 
+										My top priority is your pet's safety and happiness, so I'll keep a keen eye on their well-being throughout the entire walk. 
+										With plenty of belly rubs and affection, I aim to make each walk a tail-wagging experience your dog will look forward to every time!
 									</p>		
 								<span class="image main"><img src="assets/graphics/sit.jpg" alt="" /></span>
 								<h3> Pet Sitting </h3>
-									<p> Booking an overnight pet sitting request will entail an overnight stay at the clients household with the pet(s). 
-										An overnight sit consists of full care for your pet in your household, including feeding/watering, administering medication if needed, a walk or outing at least 1x day, and quality affection time with the pet. 
-										Most additional pet needs can easily be accommodated and can be communicated through the initial booking request.
-									</p>
-									<span>I look forward to helping you and your dog live their happiest, healthiest, and fullest life!  🐶</span>							
+									<p>
+									As your pet sitter, I'll provide a loving and comfortable environment in your pet's own home. 
+									I'll follow their routines closely, offering affection and attention throughout their stay. 
+									You can trust your furry friend will be in responsible and caring hands, receiving personalized care and regular updates. 
+									Rest assured, I'll treat them as if they were my own.
+									</p> 
+									<span>I look forward to helping you and your dog live their happiest, healthiest, and fullest life! 🐶</span>							
 							</article>
 
 						<!-- gallery -->
@@ -153,8 +157,8 @@
 									</form>
 									
 									<ul class="icons">
-										<li><a href="https://r.rover.com/iCnW8V" class="fa fa-solid fa-paw" style="--fa-animation-duration: 4s;"></a></li>
-										<li><a href="https://www.linkedin.com/in/alyssa-black-772aa21a4" class="fa fa-brands fa-linkedin" style="--fa-animation-duration: 4s;"></a></li>
+										<li><a href="" class="fa fa-solid fa-paw" style="--fa-animation-duration: 4s;"></a></li>
+										<li><a href="" class="fa fa-brands fa-linkedin" style="--fa-animation-duration: 4s;"></a></li>
 										<!-- <li><a href="#" class="fa fa-brands fa-instagram" style="--fa-animation-duration: 4s;"></a></li> -->
 										<li><a href="https://github.com/irvMol/dogWalking" class="fa fa-brands fa-github" style="--fa-animation-duration: 4s;"></a></li>
 									</ul>
