@@ -48,7 +48,8 @@ One of the standout features of DogWalking is its dynamic image gallery. The gal
 
 fsLightbox Documentation 2. Contact Form
 
-The contact form is a crucial component of the web app, allowing potential clients to get in touch seamlessly. It is developed using PHP's PHPMailer library and is configured to use an external SMTP server for reliable email delivery. The form also leverages Ajax to submit contact requests intuitively, providing real-time feedback to users. In case of any mailing errors, the app displays error codes to the client, ensuring a smooth user experience.
+The contact form is a crucial component of the web app, allowing potential clients to get in touch seamlessly.
+It is developed using PHP's PHPMailer library and is configured to use an external SMTP server for reliable email delivery. The form also leverages Ajax to submit contact requests intuitively, providing real-time feedback to users. In case of any mailing errors, the app displays error codes to the client, ensuring a smooth user experience.
 
 PHPMailer common errors 3. Responsive Design
 
