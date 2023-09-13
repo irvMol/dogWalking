@@ -43,9 +43,9 @@ else {
 
 function sendEmail($submission) {
 
-    $appEmail = "alyssa.b@frontrangedogs.com";
-    $emailPassword = "82QZ6QYB7CsRRrR";
-    $myPersonalEmail = "alyssablack.co@gmail.com";
+    //  $appEmail = "";
+    $emailPassword = "";
+    // $myPersonalEmail = "";
     $smtpHost = "smtppro.zoho.com";
     
     $mail = new PHPMailer(true);
@@ -73,8 +73,11 @@ function sendEmail($submission) {
          $mail->send();
          echo 0;
      } catch (Exception $e) {
-         echo ("Your message could not be sent! PHPMailer Error: {$mail->ErrorInfo}");
-     }
+        //  echo ("Your message could not be sent! PHPMailer Error: {$mail->ErrorInfo}");
+         echo ("Your message could not be sent! This is an example template and our services are not real. we build websites :) );
+
+
+      }
   }
 
 ?>
